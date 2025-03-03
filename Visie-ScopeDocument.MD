@@ -7,7 +7,7 @@ In deze document wordt de ConfigHUrator project besproken met een doel om betere
 
 CompHUtable is een organisatie die helpt mensen computers te bouwen, en verdient geld door computerdetails en online services te verkopen. De core business is het klant een PC laten bouwen en vervolgens de computer details te verkopen en bezorgen.
 
-(de rest van de info ontbreekt nog)
+(!de rest van de info ontbreekt nog)
 
 # Aanleiding
 
@@ -18,7 +18,7 @@ De aanleiding van het project is de behoefte van mensen die niet sterk in techno
 Er zijn aantaal belangrijke stakeholders voor deze project. De PO en het bedrijf medewerkers hebben er profijt van als het project succesvol is, en de klant profiteert door een goede eindproduct in gebruik te krijgen.
 
 ### Actoren
-(informatie ontbreekt nog)
+(!informatie ontbreekt nog)
 
 # Procesbeschrijving
 
