@@ -5,13 +5,13 @@ In deze document wordt de ConfigHUrator project besproken met een doel om betere
 
 # Organisatorische context
 
-CompHUtable is een organisatie die helpt mensen computers te bouwen, en verdient geld door computerdetails en online services te verkopen. De core business is het klant een PC laten bouwen en vervolgens de computer details te verkopen en bezorgen
+CompHUtable is een organisatie die helpt mensen computers te bouwen, en verdient geld door computerdetails en online services te verkopen. De core business is het klant een PC laten bouwen en vervolgens de computer details te verkopen en bezorgen.
 
 (de rest van de info ontbreekt)
 
 # Aanleiding
 
-De aanleiding van het project is de behoefte van mensen die niet sterk in technologie zijn om een PC te kunnen bouwen
+De aanleiding van het project is de behoefte van mensen die niet sterk in technologie zijn om een PC te kunnen bouwen.
 
 # Stakeholders
 
