@@ -1,0 +1,28 @@
+<html>
+    <script>
+        const bicycleParking = [{"facilityName":"House Modernes","time":"2025-03-17T21:43:28.693Z","totalPlaces":954,"freePlaces":828,"occupiedPlaces":124},{"facilityName":"House Modernes Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":439,"freePlaces":393,"occupiedPlaces":46},{"facilityName":"House Modernes Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":513,"freePlaces":435,"occupiedPlaces":78},{"facilityName":"Keizerstraat","time":"2025-03-17T21:43:28.693Z","totalPlaces":321,"freePlaces":319,"occupiedPlaces":2},{"facilityName":"Keizerstraat Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":166,"freePlaces":166,"occupiedPlaces":0},{"facilityName":"Keizerstraat Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":155,"freePlaces":153,"occupiedPlaces":2},{"facilityName":"Knoop","time":"2025-03-17T21:43:28.693Z","totalPlaces":2956,"freePlaces":2365,"occupiedPlaces":564},{"facilityName":"Knoop Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":1368,"freePlaces":1204,"occupiedPlaces":164},{"facilityName":"Knoop Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":1561,"freePlaces":1161,"occupiedPlaces":400},{"facilityName":"Laag Catharijne","time":"2025-03-17T21:43:28.693Z","totalPlaces":359,"freePlaces":182,"occupiedPlaces":117},{"facilityName":"Laag Catharijne Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":186,"freePlaces":84,"occupiedPlaces":102},{"facilityName":"Laag Catharijne Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":113,"freePlaces":98,"occupiedPlaces":15},{"facilityName":"Neude","time":"2025-03-17T21:43:28.693Z","totalPlaces":743,"freePlaces":538,"occupiedPlaces":185},{"facilityName":"Neude Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":354,"freePlaces":297,"occupiedPlaces":57},{"facilityName":"Neude Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":369,"freePlaces":241,"occupiedPlaces":128},{"facilityName":"Pop Up Domplein","time":"2025-03-17T21:43:28.693Z","totalPlaces":1,"freePlaces":1,"occupiedPlaces":0},{"facilityName":"Pop Up Jacobskerkhof","time":"2025-03-17T21:43:28.693Z","totalPlaces":1,"freePlaces":0,"occupiedPlaces":1},{"facilityName":"Pop Up Janskerkhof","time":"2025-03-17T21:43:28.693Z","totalPlaces":1,"freePlaces":0,"occupiedPlaces":1},{"facilityName":"Pop Up Mariaplaats","time":"2025-03-17T21:43:28.693Z","totalPlaces":1,"freePlaces":1,"occupiedPlaces":0},{"facilityName":"Pop Up Neude","time":"2025-03-17T21:43:28.693Z","totalPlaces":1,"freePlaces":0,"occupiedPlaces":1},{"facilityName":"Pop Up Vredenburg","time":"2025-03-17T21:43:28.693Z","totalPlaces":1,"freePlaces":1,"occupiedPlaces":0},{"facilityName":"Stadhuis","time":"2025-03-17T21:43:28.693Z","totalPlaces":380,"freePlaces":317,"occupiedPlaces":63},{"facilityName":"Stadhuis Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":157,"freePlaces":153,"occupiedPlaces":4},{"facilityName":"Stadhuis Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":223,"freePlaces":164,"occupiedPlaces":59},{"facilityName":"Stationsplein","time":"2025-03-17T21:43:28.693Z","totalPlaces":12603,"freePlaces":6527,"occupiedPlaces":6077},{"facilityName":"Stationsplein Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":6160,"freePlaces":3909,"occupiedPlaces":2253},{"facilityName":"Stationsplein Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":6443,"freePlaces":2618,"occupiedPlaces":3824},{"facilityName":"UB Plein","time":"2025-03-17T21:43:28.693Z","totalPlaces":619,"freePlaces":533,"occupiedPlaces":86},{"facilityName":"UB Plein Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":206,"freePlaces":201,"occupiedPlaces":5},{"facilityName":"UB Plein Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":413,"freePlaces":332,"occupiedPlaces":81},{"facilityName":"Vredenburg","time":"2025-03-17T21:43:28.693Z","totalPlaces":833,"freePlaces":416,"occupiedPlaces":378},{"facilityName":"Vredenburg Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":349,"freePlaces":235,"occupiedPlaces":114},{"facilityName":"Vredenburg Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":445,"freePlaces":186,"occupiedPlaces":259},{"facilityName":"Zadelstraat","time":"2025-03-17T21:43:28.693Z","totalPlaces":101,"freePlaces":39,"occupiedPlaces":68},{"facilityName":"Zadelstraat Laag","time":"2025-03-17T21:43:28.693Z","totalPlaces":69,"freePlaces":20,"occupiedPlaces":49},{"facilityName":"Zadelstraat Hoog","time":"2025-03-17T21:43:28.693Z","totalPlaces":38,"freePlaces":19,"occupiedPlaces":19},{"facilityName":"Jaarbeursplein","time":"2025-03-17T21:43:28.693Z","totalPlaces":4088,"freePlaces":1704,"occupiedPlaces":2384}];
+        
+        const length = (parking) => {
+            return parking.length;
+        }
+        console.log("There are " + length(bicycleParking) + " parking locations in Utrecht.");	
+
+        const totalFreePlaces = (locations) => {
+            let total = 0;
+            for (let i = 0; i < locations.length; i++) {
+                total += locations[i].freePlaces;
+            }
+            return total;
+        }
+        console.log("There are " + totalFreePlaces(bicycleParking) + " free places in Utrecht.");
+
+        const facilityNames = (locations) => {
+            let names = [];
+            for (let i = 0; i < locations.length; i++) {
+                names.push(locations[i].facilityName);
+            }
+            return names;
+        }
+        console.log("The names of the parking locations are: " + facilityNames(bicycleParking).join(", ") + ".");
+</script>
+</html> 
